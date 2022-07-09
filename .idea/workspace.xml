@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated path">
-      <change beforePath="$PROJECT_DIR$/bricks/starter/brick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/brick.yaml" afterDir="false" />
+    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated version">
+      <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657397854188</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated version">
+      <created>1657398152874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657398152874</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
     <MESSAGE value="updated path" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated path" />
+    <MESSAGE value="updated version" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated version" />
   </component>
 </project>
