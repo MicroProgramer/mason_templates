@@ -1,6 +1,6 @@
 name: starter
 description: folders for initial project by MicroProgramers
-version: "1.0.0"
+version: "1.0.1"
 vars:
   appname:
     type: string
