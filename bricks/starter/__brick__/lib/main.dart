@@ -2,6 +2,8 @@ import 'package:custom_utils/custom_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:{{projectName}}/helpers/helpers.dart';
 import 'package:{{projectName}}/views/screens/screen_login.dart';
 import 'package:{{projectName}}/widgets/custom_error.dart';
@@ -12,6 +14,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Future.delayed(Duration(seconds: 2));
   colorConfig();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
