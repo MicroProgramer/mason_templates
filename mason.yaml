@@ -1,3 +1,6 @@
 bricks:
   starter:
     path: bricks/starter
+    git:
+      url: https://github.com/MicroProgramer/mason_templates
+      path: bricks/starter
