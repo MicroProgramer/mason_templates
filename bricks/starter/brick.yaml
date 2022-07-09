@@ -1,0 +1,11 @@
+name: starter
+description: folders for initial project by MicroProgramers
+version: "1.0.0"
+vars:
+  appname:
+    type: string
+    prompt: What is your full app name?
+
+  projectName:
+    type: string
+    prompt: Write exact project name?

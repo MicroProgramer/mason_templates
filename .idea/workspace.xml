@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c6468433-003d-4f84-be19-467d59e28eeb" />
+  </component>
+  <component name="ProjectId" id="2BiWZdWlxPlyJcYbNXbokTXFMjQ" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="android.sdk.path" value="E:/Android Studio/Sdk" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last.edited.regexp" value=",&#10;&quot;SignInTitle&quot;: &quot;Sign In to Baara+&quot;,&#10;  &quot;SignupTitle&quot;: &quot;Join Baara+&quot;,&#10;  &quot;FullName&quot;: &quot;Full Name&quot;,&#10;  &quot;EmailAddress&quot;: &quot;Email Address&quot;,&#10;  &quot;Username&quot;: &quot;Username&quot;,&#10;  &quot;PhoneNumber&quot;: &quot;Phone Number&quot;,&#10;  &quot;Address&quot;: &quot;Address&quot;,&#10;  &quot;Password&quot;: &quot;Password&quot;,&#10;  &quot;SelectGender&quot;: &quot;Select Gender&quot;,&#10;  &quot;Male&quot;: &quot;Male&quot;,&#10;  &quot;Female&quot;: &quot;Female&quot;," />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bricks/starter/__brick__/lib/extensions" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bricks/starter/__brick__/lib/extensions" />
+      <recent name="$PROJECT_DIR$/starter/__brick__" />
+      <recent name="$PROJECT_DIR$/lib/__brick__" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bricks" />
+      <recent name="$PROJECT_DIR$/starter/__brick__/lib" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="" />
+      <created>1657389443570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657389443570</updated>
+    </task>
+    <servers />
+  </component>
+</project>
