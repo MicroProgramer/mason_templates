@@ -1,6 +1,6 @@
 name: starter
 description: folders for initial project by MicroProgramers
-version: "1.0.4"
+version: "1.0.5"
 vars:
   appname:
     type: string
@@ -9,3 +9,11 @@ vars:
   projectName:
     type: string
     prompt: Write exact project name?
+
+  serverKey:
+    type: string
+    prompt: Enter server key for firebase messaging?
+
+  packageName:
+    type: string
+    prompt: Write exact package name of android?

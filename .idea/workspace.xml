@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated version">
+    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated pubspec.yaml">
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/android/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/extensions/my_extensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers/fcm.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/models/message.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/models/message_dummy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/models/notification.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricks/starter/brick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/brick.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +39,17 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last.edited.regexp" value=",&#10;&quot;SignInTitle&quot;: &quot;Sign In to Baara+&quot;,&#10;  &quot;SignupTitle&quot;: &quot;Join Baara+&quot;,&#10;  &quot;FullName&quot;: &quot;Full Name&quot;,&#10;  &quot;EmailAddress&quot;: &quot;Email Address&quot;,&#10;  &quot;Username&quot;: &quot;Username&quot;,&#10;  &quot;PhoneNumber&quot;: &quot;Phone Number&quot;,&#10;  &quot;Address&quot;: &quot;Address&quot;,&#10;  &quot;Password&quot;: &quot;Password&quot;,&#10;  &quot;SelectGender&quot;: &quot;Select Gender&quot;,&#10;  &quot;Male&quot;: &quot;Male&quot;,&#10;  &quot;Female&quot;: &quot;Female&quot;," />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bricks/starter/__brick__/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bricks/starter/__brick__/android/app" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bricks/starter/__brick__/android/app" />
+      <recent name="$PROJECT_DIR$/bricks/starter/__brick__/android/app/src/main" />
+      <recent name="$PROJECT_DIR$/bricks/starter/__brick__/lib/models" />
+      <recent name="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers" />
       <recent name="$PROJECT_DIR$/bricks/starter/__brick__/assets/fonts" />
-      <recent name="$PROJECT_DIR$/bricks/starter/__brick__/lib/extensions" />
-      <recent name="$PROJECT_DIR$/starter/__brick__" />
-      <recent name="$PROJECT_DIR$/lib/__brick__" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bricks" />
@@ -111,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657398152874</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated pubspec.yaml">
+      <created>1657398529672</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657398529672</updated>
+    </task>
+    <task id="LOCAL-00010" summary="updated pubspec.yaml">
+      <created>1657398605156</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657398605156</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +154,7 @@
     <MESSAGE value="updated" />
     <MESSAGE value="updated path" />
     <MESSAGE value="updated version" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated version" />
+    <MESSAGE value="updated pubspec.yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated pubspec.yaml" />
   </component>
 </project>
