@@ -4,9 +4,14 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:{{projectName}}/helpers/helpers.dart';
 import 'package:{{projectName}}/views/screens/screen_login.dart';
 import 'package:{{projectName}}/widgets/custom_error.dart';
+
+import 'helpers/fcm.dart';
+import 'helpers/helpers.dart';
 /*Created Project "{{projectName}}" by MicroProgramers - https://microprogramers.org*/
 
 
@@ -20,26 +25,110 @@ void main() async {
 
 void colorConfig() {
   appPrimaryColor = MaterialColor(
-    0xFF2F97D1,
+    {{primaryColor}},
     const <int, Color>{
-      50: const Color(0xFF2F97D1),
-      100: const Color(0xFF2F97D1),
-      200: const Color(0xFF2F97D1),
-      300: const Color(0xFF2F97D1),
-      400: const Color(0xFF2F97D1),
-      500: const Color(0xFF2F97D1),
-      600: const Color(0xFF2F97D1),
-      700: const Color(0xFF2F97D1),
-      800: const Color(0xFF2F97D1),
-      900: const Color(0xFF2F97D1),
+      50: const Color({{primaryColor}}),
+      100: const Color({{primaryColor}}),
+      200: const Color({{primaryColor}}),
+      300: const Color({{primaryColor}}),
+      400: const Color({{primaryColor}}),
+      500: const Color({{primaryColor}}),
+      600: const Color({{primaryColor}}),
+      700: const Color({{primaryColor}}),
+      800: const Color({{primaryColor}}),
+      900: const Color({{primaryColor}}),
     },
   );
   appBoxShadow = [BoxShadow(blurRadius: 18, color: Color(0x414D5678))];
   buttonColor = const Color(0xFFED1C24);
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({Key? key}) : super(key: key);
+
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+
+
+  @override
+  void initState() {
+    setupInteractedMessage();
+    setupNotificationChannel();
+    super.initState();
+  }
+
+  Future<void> setupInteractedMessage() async {
+    // Get any messages which caused the application to open from
+    // a terminated state.
+    RemoteMessage? initialMessage = await FirebaseMessaging.instance.getInitialMessage();
+
+    // If the message also contains a data property with a "type" of "chat",
+    // navigate to a chat screen
+    if (initialMessage != null) {
+      _handleMessage(initialMessage);
+    }
+
+    // Also handle any interaction when the app is in the background via a
+    // Stream listener
+    FirebaseMessaging.onMessageOpenedApp.listen(_handleMessage);
+  }
+
+  void _handleMessage(RemoteMessage message) {
+    if (message.data['type'] == 'chat') {}
+  }
+
+
+  void setupNotificationChannel() async {
+    final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+
+    final settingsAndroid = AndroidInitializationSettings('app_icon');
+    final settingsIOS = IOSInitializationSettings(
+        onDidReceiveLocalNotification: (id, title, body, payload) =>
+        null/*onSelectNotification(payload)*/);
+    await flutterLocalNotificationsPlugin.initialize(InitializationSettings(
+        android: settingsAndroid,
+        iOS: settingsIOS
+    ));
+
+    await flutterLocalNotificationsPlugin
+        .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
+        ?.createNotificationChannel(channel);
+
+
+    FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+      RemoteNotification? notification = message.notification;
+      AndroidNotification? android = message.notification?.android;
+      AppleNotification? iOS = message.notification?.apple;
+
+      // If `onMessage` is triggered with a notification, construct our own
+      // local notification to show to users using the created channel.
+      if (notification != null && android != null) {
+        flutterLocalNotificationsPlugin.show(
+            notification.hashCode,
+            notification.title,
+            notification.body,
+            NotificationDetails(
+              android: AndroidNotificationDetails(
+                channel.id,
+                channel.name,
+                channelDescription: channel.description,
+                icon: android.smallIcon,
+                enableVibration: true,
+                // importance: Importance.max,
+                // priority: Priority.high,
+                // ongoing: true,
+                // autoCancel: false,
+                // other properties...
+              ),
+            ));
+
+        // showOngoingNotification(flutterLocalNotificationsPlugin, title: notification.title ?? "", body: notification.body ?? "");
+      }
+    });
+  }
 
   // This widget is the root of your application.
   @override

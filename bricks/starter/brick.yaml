@@ -17,3 +17,7 @@ vars:
   packageName:
     type: string
     prompt: Write exact package name of android?
+
+  primaryColor:
+    type: string
+    prompt: Eneter primary color for the app, e.g. 0xFF2F97D1?

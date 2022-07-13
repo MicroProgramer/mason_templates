@@ -7,8 +7,7 @@ import 'package:http/http.dart' as http;
 class FCM {
   static int _messageCount = 0;
   static final _firebaseMessaging = FirebaseMessaging.instance;
-  static var _serverKey =
-      '{{serverKey}}';
+  static var _serverKey = '{{serverKey}}';
 
   static String _constructFCMPayload(String? token) {
     _messageCount++;

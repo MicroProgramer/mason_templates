@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated pubspec.yaml">
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/android/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/extensions/my_extensions.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers/fcm.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/models/message.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/models/message_dummy.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/models/notification.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers/fcm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers/fcm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bricks/starter/brick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/brick.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657398605156</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated pubspec.yaml">
+      <created>1657734297231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657734297231</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
