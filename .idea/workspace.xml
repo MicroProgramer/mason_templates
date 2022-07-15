@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated pubspec.yaml">
-      <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers/fcm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/helpers/fcm.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricks/starter/__brick__/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/__brick__/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bricks/starter/brick.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/bricks/starter/brick.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="a310acd6-6288-4ffc-bda9-d73af20f6371" name="Changes" comment="updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657734297231</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated">
+      <created>1657735215547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657735215547</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,10 +154,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated" />
     <MESSAGE value="updated path" />
     <MESSAGE value="updated version" />
     <MESSAGE value="updated pubspec.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pubspec.yaml" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
 </project>
